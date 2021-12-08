@@ -1,0 +1,238 @@
+body {
+  background-image: url(../images/Background-image.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  padding: 5% 3%;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  /* font-size: 2.5rem; */
+}
+
+/* TITLE SECTION GOES HERE */
+
+#title {
+  margin: 0 0 5%;
+  width: 100%;
+}
+
+/* NAVBAR */
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  margin-left: 50px;
+}
+
+
+/* TITLE */
+
+.big-text {
+  font-size: 5.2rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 8% 0 1%;
+}
+
+.question-mark {
+  color: #FFEE00;
+}
+
+.sub-text {
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  color: #fff;
+  font-weight: lighter;
+  margin-bottom: 3%;
+
+}
+
+.btn-yellow {
+  color: #FFEE00;
+  border: 2px solid #FFEE00;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+
+.btn-yellow:hover {
+  background-color: #FFEE00;
+  color: #000;
+  border: 2px solid #FFEE00;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 10px 15px;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-link {
+    margin-left: 0;
+  }
+
+  .btn {
+    margin: 4% 0 5%;;
+
+  }
+}
+
+
+/* ITEMS SECTION GOES HERE */
+
+#items {
+  background-color: #fff;
+  text-align: center;
+  padding: 2.5% 0;
+  width: 100%;
+}
+
+.item-img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.item-padding {
+  padding: 5%;
+}
+
+h2 {
+  margin-top: 4%;
+}
+
+
+
+/* TAKEAWAY SECTION GOES IN HERE */
+
+#takeaway {
+  background-color: white;
+}
+
+#takeaway .container-fluid {
+  padding: 0;
+  width: 94%;
+}
+
+.col-lg-6 {
+  padding: 0;
+}
+
+.takeaway-img {
+  width: 100%;
+}
+
+.takeaway-padding {
+  padding: 3% 0 3% 5%;
+}
+
+.takeaway-big-text {
+  font-size: 4rem;
+
+}
+
+.takeaway-sm-text {
+  width: 80%;
+  margin-bottom: 10%;
+}
+
+/* .image {
+  background-image: url(../images/takeaway.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+} */
+
+
+
+/* CALL TO ACTION SECTION GOES IN HERE */
+
+#cto {
+  background-color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.subscribe-text {
+  font-size: 3rem;
+  font-weight: lighter;
+  color: #000;
+  margin-bottom: 5%;
+}
+
+.email {
+  width: 50%;
+  height: 50px;
+  border-radius: 0;
+  border: 1px solid #FFEE00;
+  padding: 10px;
+}
+
+.sub-btn {
+  width: 10%;
+  height: 50px;
+  border-radius: 0;
+  border: 1px solid #FFEE00;
+  background-color: #FFEE00;
+  padding: 10px;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 990px) {
+
+  .sub-btn {
+    width: 20%;
+  }
+
+}
+
+
+/* FOOTER SECTION GOES IN HERE */
+
+#footer {
+  background-image: url(../images/Background-image.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+}
+
+#footer .container {
+  padding: 0.5% 3%;
+}
+
+.icon-padding {
+  padding: 1.5% 1%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.icon-padding:hover {
+  color: #ddd;
+}
